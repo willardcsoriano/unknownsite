@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    font-family: 'Roboto', sans-serif; /* Default font for the body */
+}
+
+.body-container {
+    background-color: #FFF8E7;
+}
+
+header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: black; 
+} 
+
+section, header {
+    border-bottom: 1px solid #000; /* Sets a black border of 1px */
+}
+
+section {
+    min-height: 30vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif; /* Use Roboto for all headings */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* Use Lato for paragraph text */
+    font-weight: 400; /* Regular weight for paragraphs */
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+}
